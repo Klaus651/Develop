@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="gmail.css" type="text/css">
+</head>
+<body >
+    <p id="p1">Please fill in this form to create an account.</p>
+    <form>
+        <table cellpadding="3"  cellspacing="2">
+            <hr>
+            <tr>
+                <td><b>Name</b></td>
+            </tr>
+            <tr>
+                <td>
+                <input placeholder="First Name" type="text" id="fname" name="fname" required>
+                </td>
+                <td>
+                <input placeholder="Last Name" type="text" id="lname" name="lname" required>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Choose your username</b></td>
+            </tr>
+            <tr>
+                <tr>
+                   <td colspan="2">
+                   <input type="email" placeholder="                                                                    @gmail.com" size="47" name="email" id="email" required>
+                 </td> 
+                </tr>
+                <tr>
+                    <td><b>Create a password</b></td>
+                </tr>
+                 <tr>
+   
+    <tr>
+        <td>
+            <input type="password" placeholder="Enter Password"id="psw" required><br>
+</td>
+</tr>
+<tr>
+    <td><b>Confirm your password</b></td>
+</tr>
+<tr>
+    
+    <tr>
+        <td>
+            <input type="password" placeholder="Repeat Password" id="psw-repeat" required><br>
+</td>
+</tr>
+
+<tr>
+<td>
+    <label><b>Birthday</b></label></td>
+  <td id="td1">  <input type="date" required>
+</td>
+</tr>
+<tr>
+    <td><label><b>Gender</b></label></td>
+    <td id="td1">
+        <select>
+            <option value="Choose">I am..</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="Other">Other</option>
+            </select>
+        </td>
+    </tr>
+ 
+    <tr>
+        <td> <label><b>Mobile Number</b></label></td>
+        <td id="td1">  <input type="tel" placeholder="+91 xxxxxxxxxx" required>
+        </td>
+    </tr>
+    <tr>
+        <td> <label><b>Location</b></label></td>
+        <td id="td1">
+            <input list="Location" name="Location">
+            <datalist id="Location">
+              <option value="United States">
+              <option value="India">
+              <option value="Japan">
+              <option value="Russia">
+              <option value="Africa">
+              <option value="Austraila">
+              <option value="China">
+              <option value="UAE">
+            </datalist>
+        </td>
+    </tr>
+    </table>
+    <hr>
+</form>
+
+     <p id="td1">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+     <p id="p2"><button type="submit">Register</button></p>
+     <h4 id="h4">Already have an account? <a href="#">Sign in</a>.</h4>
+    
+     
+    
+</body>
+</html>
